@@ -2,6 +2,11 @@ import itchat
 import requests
 import time
 import os
+import sys
+
+
+reload(sys)
+sys.setdefaultencoding('utf-8')
 
 quit_users={u'\u5b59\u6dfc\u6dfc':100}
 blank_users={'itchat':True}
